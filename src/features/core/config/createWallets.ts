@@ -49,7 +49,8 @@ enum ChainListId {
   POLYGON = 137,
   ARBITRUM = 42161,
   BNB = 56,
-  AVALANCHE = 43114
+  AVALANCHE = 43114,
+  SCROLL = 	534352
 }
 
 export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>> {
@@ -78,6 +79,7 @@ export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>
       [ChainListId.ARBITRUM]: 'https://arb1.arbitrum.io/rpc',
       [ChainListId.BNB]: 'https://bsc-dataseed.binance.org/',
       [ChainListId.AVALANCHE]: 'https://api.avax.network/ext/bc/C/rpc',
+      [ChainListId.SCROLL]: 'https://rpc.scroll.io',
     },
   });
 

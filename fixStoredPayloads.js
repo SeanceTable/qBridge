@@ -21,6 +21,7 @@ const chainIds = {
   "Arbitrum": 110,
   "Avalanche": 106,
   "Polygon": 109,
+  "Polygon": 109,
 }
 
 async function checkAndFix() {
