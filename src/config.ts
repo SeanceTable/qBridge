@@ -34,6 +34,7 @@ export const wrapped_mainnet: WrappedTokenBridgeConfig = {
       new Token(ChainId.AVALANCHE, '0x74A96f3113A0046Df3956f77d7A753025331f9Bd', 18, 'qBit'),
       new Token(ChainId.POLYGON, '0x8bF087Be99983A4FF928A94Ac302fD5f139e4D7d', 18, 'qBit'),
       new Token(ChainId.BASE, '0xf4B83B97A19712ae146f30177D48b21fB3c0AA31', 18, 'qBit'),
+      new Token(ChainId.OPBNB, '0x97daC874195b627ba83310FD85F02ff8a47481c9', 18, 'qBit'),
       new Token(ChainId.ARBITRUM, '0x529E43f03C426ba50dEc652496a9C84e617507Ca', 18, 'qBit'),
       new Token(ChainId.OPTIMISM, '0xE967821f76D96d4d29f2c8e86E423C9D56B995f8', 18, 'qBit'),
     ],
