@@ -236,6 +236,13 @@ const qBit = {
       'Quantum Bit',
     ),
     new Token(
+      ChainId.SCROLL,
+      '0x9fa293da77d810d919a1f435241df70effc1a950',
+      18,
+      'qBit',
+      'Quantum Bit',
+    ),
+    new Token(
       ChainId.ARBITRUM,
       '0x089764Af15D27d8Fd7bdb598DeB095b70daDB403',
       18,
@@ -251,6 +258,7 @@ const qBit = {
     {chainId: ChainId.ARBITRUM, address: '0x089764Af15D27d8Fd7bdb598DeB095b70daDB403'},
     {chainId: ChainId.OPTIMISM, address: '0xE967821f76D96d4d29f2c8e86E423C9D56B995f8'}, //test
     {chainId: ChainId.OPBNB, address: '0x97daC874195b627ba83310FD85F02ff8a47481c9'}, //test
+    {chainId: ChainId.SCROLL, address: '0x9fa293da77d810d919a1f435241df70effc1a950'}, //test
   ],
   fee: false,
   sharedDecimals: 6, // Adjusted to 18 for full precision
