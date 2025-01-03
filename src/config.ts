@@ -318,7 +318,7 @@ export const appConfig: AppConfig = createAppConfig({
   },
 });
 
-/***NATIVE OFT CONFIG***/
+//wtf
 
 enum ChainListId {
   TELOS = 40,
