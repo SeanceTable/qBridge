@@ -79,7 +79,6 @@ export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>
       [ChainListId.ARBITRUM]: 'https://arb1.arbitrum.io/rpc',
       [ChainListId.BNB]: 'https://bsc-dataseed.binance.org/',
       [ChainListId.AVALANCHE]: 'https://api.avax.network/ext/bc/C/rpc',
-      [ChainListId.SCROLL]: 'https://rpc.scroll.io',
     },
   });
 
