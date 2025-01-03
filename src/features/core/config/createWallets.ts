@@ -49,8 +49,7 @@ enum ChainListId {
   POLYGON = 137,
   ARBITRUM = 42161,
   BNB = 56,
-  AVALANCHE = 43114,
-  SCROLL = 	534352
+  AVALANCHE = 43114
 }
 
 export function createWallets(chains: ChainId[]): Record<string, Wallet<unknown>> {

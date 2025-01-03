@@ -236,13 +236,6 @@ const qBit = {
       'Quantum Bit',
     ),
     new Token(
-      ChainId.SCROLL,
-      '0x9fa293da77d810d919a1f435241df70effc1a950',
-      18,
-      'qBit',
-      'Quantum Bit',
-    ),
-    new Token(
       ChainId.ARBITRUM,
       '0x089764Af15D27d8Fd7bdb598DeB095b70daDB403',
       18,
